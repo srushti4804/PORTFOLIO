@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: darkblue;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+}
+
+header {
+  width: 45%;
+  margin-left: 27.5%;
+  
+  .header-main {
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: lightgray;
+    
+    color: black;
+    .name {
+      margin-left: 2rem;
+    }
+  }
+  .nav-bar {
+    margin-right: 2rem;
+    a {
+      margin-left: 2rem;
+      text-decoration: none;
+      
+      color: black;
+      cursor: pointer;
+    }
+  }
+}
+
+.home-page {
+  display: flex;
+  justify-content: center;
+
+  .home-page-main {
+    border: 1px solid black;
+    height: 17rem;
+    width: 40%;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .job-profile {
+      border: 1px solid black;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h1 {
+        font-size: 4rem;
+        color: white;
+      }
+      h3 {
+        font-size: 2rem;
+        color: lightgray;
+      }
+    }
+    .profile-link {
+      border: 1px solid black;
+      height: 7rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+      #job-link {
+        border: 1px solid black;
+        height: 2.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+
+        a{
+          font-size: 2rem;
+          margin: 1rem 1rem;
+          color: white;
+        }
+        img{
+          width: 2rem;
+        }
+      }
+      #job-button {
+        border: 1px solid black;
+        height: 2.5rem;
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+        .button{
+          width: 7rem;
+          height:2rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 1rem;
+          color: black;
+          background-color: aliceblue;
+          text-decoration: none;
+          cursor: pointer;
+          transition: 0.3s ease-in-out;
+          
+
+        }
+        .button:hover{
+          background-color: black;
+          color: white;
+
+        }
+        
+      }
+    }
+  }
+}
+.about-me .intro{
+  background-color: aliceblue;
+  
+    border: 1px solid black;
+  
+}
