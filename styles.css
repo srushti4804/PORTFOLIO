@@ -134,10 +134,13 @@ header {
       }
     }
   }
-}
-.about-me .intro{
+
+  
+.about-me {
   background-color: aliceblue;
   
+  .intro{
     border: 1px solid black;
+  }
   
 }
